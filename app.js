@@ -6,11 +6,11 @@
 
 const util = require('util');
 const fs = require('fs');
-const net = require('net');
+// const net = require('net');
 const events = require('./src/events.js');
 
-const client = new net.Socket();
-client.connect(3001, 'localhost', () => console.log('Socket in app.js is connected!'));
+// const client = new net.Socket();
+// client.connect(3001, 'localhost', () => console.log('Socket in app.js is connected!'));
 
 /**
  * This readFile function is a promise that reads the file

@@ -1,5 +1,4 @@
 'use strict';
-
 /**
  * EventEmitter creates a new instance of an event.
  */
