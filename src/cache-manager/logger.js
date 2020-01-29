@@ -27,11 +27,17 @@ client.on('data', (buffer) => {
 
 
 });
-
+/**
+ * @function handleFileSave
+ * @param  {} data
+ */
 let handleFileSave = (data) => {
   console.log(data.message);
 };
-
+/**
+ * @function handleFileError
+ * @param  {} data
+ */
 let handleFileError = (data) => {
   console.log(data.message);
 };
